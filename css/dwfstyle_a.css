@@ -247,7 +247,9 @@ h2{
   vertical-align: top;
 }
 .col-1-3 {
-  width: 25%;
+  width: 24%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .col-2-3 {
   width: 66.66%;
@@ -308,15 +310,20 @@ small{
 	text-align: center;
 }
 
-.primary-footer a {
+.nav a {
 	
 	color: #ffffff;
     padding-left: 14px;
 	padding-right: 14px;
+	transition: 0.15s;
 }
 
-.primary-footer a:hover {
-	color: #648880;
+.nav a:hover {
+	color: #a9b8b9;
+}
+
+.nav a:last-child:hover{
+	opacity: 0.6;
 }
 
 .fb{
